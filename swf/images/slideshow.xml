@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<main 
+    delay_time = "4"
+    menu_visible = "yes"
+    menu_axis = "x"
+    menu_x = "10"
+    menu_y = "290"
+    bannerBTN ="no"
+    menu_spacer = "5"
+    bgColor = "0x2F2F2F"
+    preloaderColor = "0x0099bb">
+    
+	    <slideshow>
+    <picture_path>/template/images/swf/images/img.jpg</picture_path>
+    <description>2010</description>
+    <web_address>http://www.joyou.com.cn/</web_address>
+    </slideshow>
+    <slideshow>
+    <picture_path>/template/images/swf/images/img1.jpg</picture_path>
+    <description>热烈庆祝JOYOU·中宇卫浴成为第一家在欧洲上市的中国卫浴企业</description>
+    <web_address>http://www.joyou.com.cn/</web_address>
+    </slideshow>
+    <slideshow>
+    <picture_path>/template/images/swf/images/img2.jpg</picture_path>
+    <description>热烈庆祝JOYOU·中宇卫浴成为第一家在欧洲上市的中国卫浴企业</description>
+    <web_address>http://www.joyou.com.cn/</web_address>
+    </slideshow>
+    <slideshow>
+    <picture_path>/template/images/swf/images/img3.jpg</picture_path>
+    <description>2010年新品上市——尊荣水生活</description>
+    <web_address>http://www.joyou.com.cn/</web_address>
+    </slideshow>
+    <slideshow>
+    <picture_path>/template/images/swf/images/img4.jpg</picture_path>
+    <description>2010年新品上市——尊荣水生活</description>
+    <web_address>http://www.joyou.com.cn/</web_address>
+    </slideshow>
+    <slideshow>
+    <picture_path>/template/images/swf/images/img5.jpg</picture_path>
+    <description>2010年新品上市——尊荣水生活</description>
+    <web_address>http://www.joyou.com.cn/</web_address>
+    </slideshow>
+
+	
+</main>
