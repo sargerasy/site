@@ -22,7 +22,7 @@ $('.search-form form').submit(function(){
 		<div id="sidebar">
 		<?php 
 			$this->beginWidget('zii.widgets.CPortlet', array(
-				'title'=>'Pages',
+				'title'=>'Pages<div style="display:inline;float:right;">'. CHtml::link('Add', array('page/create'), array('style'=>'text-decoration:none')).'</div>',
 			)); 
 			$this->widget('CTreeView', array(
 				'data' => Utils::getSitemapTreeViewData($model),

@@ -11,7 +11,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'type'); ?>
-		<?php echo $form->dropDownList($model, 'type', $model->getTypeOptions()); ?>
+		<?php echo $form->dropDownList($model, 'type', $model->getTypeOptions(), array('id'=>'type-select')); ?>
 		<?php echo $form->error($model,'type'); ?>
 	</div>
 
@@ -33,7 +33,8 @@
 		<?php echo $form->error($model,'path'); ?>
 	</div>
 
-	<div class="row">
+	<div class="row" id="content-field">
+		<?php echo $form->labelEx($model,'content'); ?>
 		<?php $this->widget('application.extensions.fckeditor.FCKEditorWidget', array(
 			"model" => $model,
 			"attribute" => 'content',
@@ -77,3 +78,18 @@
 <?php $this->endWidget(); ?>
 
 </div><!-- form -->
+<script type="text/javascript">
+$(document).ready(function($) {
+	if ($("#type-select").val() == 2) {
+		$("#content-field").hide();
+	}
+
+	$("#type-select").change(function() {
+		if ($("#type-select").val() == 2){
+			$("#content-field").hide();
+		} else {
+			$("#content-field").show();
+		};
+	});
+});
+</script>

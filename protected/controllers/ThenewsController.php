@@ -1,12 +1,12 @@
 <?php
 
-class PageController extends Controller
+class ThenewsController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $layout='//layouts/main.bak';
+	public $layout='//layouts/column2';
 
 	/**
 	 * @return array action filters
@@ -50,18 +50,8 @@ class PageController extends Controller
 	 */
 	public function actionView($id)
 	{
-		$imageShowDataProvider = new CActiveDataProvider('ImageShow', array(
-			'criteria' => array(
-				'condition' => 'page_id=:pageId',
-				'params' => array(':pageId' => $this->loadModel($id)->id),
-			),
-			'pagination' => array(
-				'pageSize' => 10,
-			),
-		));
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
-			'imageShowDataProvider' => $imageShowDataProvider,
 		));
 	}
 
@@ -71,17 +61,16 @@ class PageController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$this->layout = "//layouts/column2";
-		$model=new Page;
+		$model=new News;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Page']))
+		if(isset($_POST['News']))
 		{
-			$model->attributes=$_POST['Page'];
+			$model->attributes=$_POST['News'];
 			if($model->save())
-				$this->redirect(array('index'));
+				$this->redirect(array('view','id'=>$model->id));
 		}
 
 		$this->render('create',array(
@@ -94,28 +83,18 @@ class PageController extends Controller
 	 * If update is successful, the browser will be redirected to the 'view' page.
 	 * @param integer $id the ID of the model to be updated
 	 */
-	public function actionUpdate()
+	public function actionUpdate($id)
 	{
-		if(isset($_GET['id']))
-			$id = $_GET['id'];
-		else if(isset($_POST['id']))
-			$id = $_POST['id'];
-
-		if(isset($_GET['url']))
-			$url = $_GET['url'];
-		else if(isset($_POST['url']))
-			$url = $_POST['url'];
-
-		$model=$this->loadModel(array('id'=>$id, 'url'=>$url));
+		$model=$this->loadModel($id);
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Page']))
+		if(isset($_POST['News']))
 		{
-			$model->attributes=$_POST['Page'];
+			$model->attributes=$_POST['News'];
 			if($model->save())
-				$this->redirect(array('update','id'=>$model->id));
+				$this->redirect(array('view','id'=>$model->id));
 		}
 
 		$this->render('update',array(
@@ -148,13 +127,9 @@ class PageController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$model=new Page('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Page']))
-			$model->attributes=$_GET['Page'];
-
-		$this->render('admin',array(
-			'model'=>$model,
+		$dataProvider=new CActiveDataProvider('News');
+		$this->render('index',array(
+			'dataProvider'=>$dataProvider,
 		));
 	}
 
@@ -163,10 +138,10 @@ class PageController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Page('search');
+		$model=new News('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Page']))
-			$model->attributes=$_GET['Page'];
+		if(isset($_GET['News']))
+			$model->attributes=$_GET['News'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -178,15 +153,10 @@ class PageController extends Controller
 	 * If the data model is not found, an HTTP exception will be raised.
 	 * @param integer the ID of the model to be loaded
 	 */
-	public function loadModel($params)
+	public function loadModel($id)
 	{
-		if(isset($params['id'])) {
-			$model=Page::model()->findByPk((int)$params['id']);
-		}else if(isset($params['url'])) {
-			$model=Page::model()->findByAttributes(array('path'=>$params['url']));
-		}
+		$model=News::model()->findByPk((int)$id);
 		if($model===null)
-			//return Page::model()->findByPk(1);
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
 	}
@@ -197,7 +167,7 @@ class PageController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='page-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='news-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

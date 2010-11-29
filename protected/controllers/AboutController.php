@@ -44,7 +44,7 @@ class AboutController extends FrontPageController
 			'criteria'=>$criteria,
 		));
 
-		$this->render('honor',array(
+		$this->loadPage(array(
 			'dataProvider'=>$dataProvider,
 			'curYear'=>$year,
 		));
@@ -64,15 +64,18 @@ class AboutController extends FrontPageController
 			),
 			'criteria'=>$criteria,
 		));
-		$this->render('jobs',array(
+		$this->loadPage(array(
 			'dataProvider'=>$dataProvider,
 		));
 	}
 
 	public function actionManagement()
 	{
+		$this->loadPage();
+		/*
 		$this->layout = "//layouts/about";
 		$this->render('management');
+		 */
 	}
 
 	public function actionOrganization()

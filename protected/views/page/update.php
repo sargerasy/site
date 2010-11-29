@@ -4,20 +4,13 @@ $this->breadcrumbs=array(
 	$model->name=>array('view','id'=>$model->id),
 	'Update',
 );
-
-$this->menu=array(
-	array('label'=>'List Page', 'url'=>array('index')),
-	array('label'=>'Create Page', 'url'=>array('create')),
-	array('label'=>'View Page', 'url'=>array('view', 'id'=>$model->id)),
-	array('label'=>'Manage Page', 'url'=>array('admin')),
-);
 ?>
 <div class="container">
 	<div class="span-4">
 		<div id="sidebar">
 		<?php 
 			$this->beginWidget('zii.widgets.CPortlet', array(
-				'title'=>'Pages',
+				'title'=>'Pages<div style="display:inline;float:right;">'. CHtml::link('Add', array('page/create'), array('style'=>'text-decoration:none')).'</div>',
 			)); 
 			$this->widget('CTreeView', array(
 				'data' => Utils::getSitemapTreeViewData($model),

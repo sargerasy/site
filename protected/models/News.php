@@ -1,26 +1,23 @@
 <?php
 
 /**
- * This is the model class for table "tbl_page".
+ * This is the model class for table "tbl_news".
  *
- * The followings are the available columns in table 'tbl_page':
+ * The followings are the available columns in table 'tbl_news':
  * @property integer $id
- * @property string $name
  * @property string $title
- * @property string $path
- * @property string $content
- * @property string $keywords
  * @property string $description
+ * @property string $content
+ * @property integer $author_id
+ * @property integer $status
+ * @property string $thumbnail
+ * @property string $create_date
  */
-class Page extends CActiveRecord
+class News extends CActiveRecord
 {
-
-	const TYPE_NOMAL=0;
-	const TYPE_SHOW=1;
-	const TYPE_SPECIAL=2;
 	/**
 	 * Returns the static model of the specified AR class.
-	 * @return Page the static model class
+	 * @return News the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -32,7 +29,7 @@ class Page extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'tbl_page';
+		return 'tbl_news';
 	}
 
 	/**
@@ -43,12 +40,13 @@ class Page extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, title, path, type', 'required'),
-			array('name, title, path, layout, view', 'length', 'max'=>128),
-			array('keywords, description', 'safe'),
+			array('title, description, content, author_id, status, thumbnail, create_date', 'required'),
+			array('author_id, status', 'numerical', 'integerOnly'=>true),
+			array('title', 'length', 'max'=>128),
+			array('thumbnail', 'length', 'max'=>256),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, name, title, path, content, keywords, description, type, layout, view', 'safe', 'on'=>'search'),
+			array('id, title, description, content, author_id, status, thumbnail, create_date', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -60,7 +58,6 @@ class Page extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'images' => array(self::HAS_MANY, 'ImageShow', 'page_id'),
 		);
 	}
 
@@ -71,15 +68,13 @@ class Page extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'name' => 'Name',
 			'title' => 'Title',
-			'path' => 'Path',
-			'content' => 'Content',
-			'keywords' => 'Keywords',
 			'description' => 'Description',
-			'type' => 'Type',
-			'layout' => 'Layout',
-			'view' => 'View',
+			'content' => 'Content',
+			'author_id' => 'Author',
+			'status' => 'Status',
+			'thumbnail' => 'Thumbnail',
+			'create_date' => 'Create Date',
 		);
 	}
 
@@ -95,31 +90,16 @@ class Page extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('name',$this->name,true);
 		$criteria->compare('title',$this->title,true);
-		$criteria->compare('path',$this->path,true);
-		$criteria->compare('content',$this->content,true);
-		$criteria->compare('keywords',$this->keywords,true);
 		$criteria->compare('description',$this->description,true);
+		$criteria->compare('content',$this->content,true);
+		$criteria->compare('author_id',$this->author_id);
+		$criteria->compare('status',$this->status);
+		$criteria->compare('thumbnail',$this->thumbnail,true);
+		$criteria->compare('create_date',$this->create_date,true);
 
 		return new CActiveDataProvider(get_class($this), array(
 			'criteria'=>$criteria,
 		));
-	}
-
-	public function getTypeOptions()
-	{
-		return array(
-			self::TYPE_NOMAL => 'normal',
-			self::TYPE_SHOW => 'show',
-			self::TYPE_SPECIAL => 'special',
-		);
-	}
-
-	public function getTypeText()
-	{
-		$options = $this->typeOptions;
-		return isset($options[$this->type]) ?
-			$options[$this->type] : "unknown status ({$this->type})";
 	}
 }

@@ -1,19 +1,20 @@
 <?php
 
-class FrontPageController extends Controller
+class NewsController extends Controller
 {
-	protected $_page = null;
-
-	protected function loadPage($params=array()) 
+	public function actionCompany()
 	{
-		$this->_page = Page::model()->findByAttributes(array('path' => $this->route));
-		$this->layout='//layouts/'.$this->_page->layout;
-		$this->render($this->_page->view, $params);
+		$this->render('company');
 	}
 
-	public function getPage()
+	public function actionIndex()
 	{
-		return $this->_page;
+		$this->render('index');
+	}
+
+	public function actionIndustry()
+	{
+		$this->render('industry');
 	}
 
 	// Uncomment the following methods and override them if needed
@@ -42,5 +43,4 @@ class FrontPageController extends Controller
 		);
 	}
 	*/
-
 }
