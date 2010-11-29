@@ -7,7 +7,7 @@
 				'title'=>'Pages',
 			)); 
 			$this->widget('CTreeView', array(
-				'data' => Sitemap::getTreeViewData(),
+				'data' => Utils::getSitemapTreeViewData(),
 			));
 			$this->endWidget(); 
 		?>

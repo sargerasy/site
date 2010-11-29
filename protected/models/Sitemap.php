@@ -124,30 +124,6 @@ class Sitemap extends CActiveRecord
 		return $sitemaps[$id];
 	}
 
-	public static function getTreeViewData()
-	{
-		$data = self::loadAllSiteMap();
-		$ret = array();
-		$main = $data[0];
-		foreach($main as $item) {
-			$children = self::getChildren($item->id);
-			$carray = array();
-			if (isset($children)) {
-				foreach($children as $child) {
-					$carray[$child->name] = array(
-						'text' => $child->name.":".$child->path,
-					);
-				}
-			}
-			$ret[$item->name] = array(
-				'text' => "<span>{$item->name}</span>",
-				'expanded' => false,
-				'classes' => 'important',
-				'children' => $carray
-			);
-		}
-		return $ret;
-	}
 
 	public static function getSubMenus($path)
 	{

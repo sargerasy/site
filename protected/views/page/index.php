@@ -11,6 +11,8 @@ $this->menu=array(
 
 <h1>Pages</h1>
 
+
+
 <?php $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'page-grid',
 	'dataProvider'=>$model->search(),

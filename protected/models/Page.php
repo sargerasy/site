@@ -43,11 +43,11 @@ class Page extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('name, title, path, content, type', 'required'),
-			array('name, title, path', 'length', 'max'=>128),
+			array('name, title, path, layout, view', 'length', 'max'=>128),
 			array('keywords, description', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, name, title, path, content, keywords, description, type', 'safe', 'on'=>'search'),
+			array('id, name, title, path, content, keywords, description, type, layout, view', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -77,6 +77,8 @@ class Page extends CActiveRecord
 			'keywords' => 'Keywords',
 			'description' => 'Description',
 			'type' => 'Type',
+			'layout' => 'Layout',
+			'view' => 'View',
 		);
 	}
 

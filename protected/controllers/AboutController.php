@@ -1,20 +1,7 @@
 <?php
 
-class AboutController extends Controller
+class AboutController extends FrontPageController
 {
-	public $layout='//layouts/about';
-	private $_page = null;
-
-	private function loadPage() 
-	{
-		$this->_page = Page::model()->findByAttributes(array('path' => $this->route));
-		$this->render('common');
-	}
-
-	public function getPage()
-	{
-		return $this->_page;
-	}
 
 	public function actionContact()
 	{
@@ -38,6 +25,7 @@ class AboutController extends Controller
 
 	public function actionHonor()
 	{
+		$this->layout = "//layouts/honor";
 		$year = 2006;
 		$page = 1;
 		if (isset($_GET['year']))
@@ -65,6 +53,7 @@ class AboutController extends Controller
 
 	public function actionJobs()
 	{
+		$this->layout = "//layouts/about";
 		$criteria = new CDbCriteria(array(
 			'order' => 'create_date desc',
 		));
@@ -82,6 +71,7 @@ class AboutController extends Controller
 
 	public function actionManagement()
 	{
+		$this->layout = "//layouts/about";
 		$this->render('management');
 	}
 

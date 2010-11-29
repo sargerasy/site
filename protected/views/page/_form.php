@@ -59,6 +59,17 @@
 		<?php echo $form->error($model,'description'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->labelEx($model,'layout'); ?>
+		<?php echo $form->textField($model,'layout',array('size'=>60,'maxlength'=>128)); ?>
+		<?php echo $form->error($model,'layout'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'view'); ?>
+		<?php echo $form->textField($model,'view',array('size'=>60,'maxlength'=>128)); ?>
+		<?php echo $form->error($model,'view'); ?>
+	</div>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>

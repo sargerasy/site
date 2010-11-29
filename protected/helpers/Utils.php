@@ -60,5 +60,40 @@ class Utils
 			throw new CHttpException(400,'The Image upload failed!');
 		}
 	}
+
+	public static function generatorUpdateUrl($name, $url)
+	{
+		return CHtml::link($name,
+			array("page/update", 'url'=>$url),
+			array('style'=>'background-color:transparent;text-decoration:none;')
+		);
+	}
+
+	public static function getSitemapTreeViewData($page)
+	{
+		$data = Sitemap::loadAllSiteMap();
+		$ret = array();
+		$main = $data[0];
+		$sitemap = Sitemap::model()->findByAttributes(array('path'=>$page->path));
+
+		foreach($main as $item) {
+			$children = Sitemap::getChildren($item->id);
+			$carray = array();
+			if (isset($children)) {
+				foreach($children as $child) {
+					$carray[$child->name] = array(
+						'text' => self::generatorUpdateUrl($child->name, $child->path),
+					);
+				}
+			}
+			$ret[$item->name] = array(
+				'text' => "<span>".self::generatorUpdateUrl($item->name, $item->path)."</span>",
+				'expanded' => ($sitemap->parent === $item->id) ? true : false,
+				'classes' => 'important',
+				'children' => $carray
+			);
+		}
+		return $ret;
+	}
 }
 ?>
