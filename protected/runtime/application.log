@@ -7119,3 +7119,1394 @@ in F:\tools\xampp\htdocs\demo\index.php (13)
 in F:\tools\xampp\htdocs\yii\framework\zii\widgets\CBreadcrumbs.php (103)
 in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (44)
 in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (123)
+2010/11/29 10:58:45 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:46 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:46 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:46 [trace] [system.web.filters.CFilterChain] Running filter PageController.filteraccessControl()
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:46 [trace] [system.CModule] Loading "user" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:46 [trace] [system.CModule] Loading "session" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:47 [trace] [system.CModule] Loading "db" application component
+in F:\tools\xampp\htdocs\demo\protected\models\Page.php (27)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (186)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (109)
+2010/11/29 10:58:47 [trace] [system.db.CDbConnection] Opening DB connection
+in F:\tools\xampp\htdocs\demo\protected\models\Page.php (27)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (186)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (109)
+2010/11/29 10:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_page`
+in F:\tools\xampp\htdocs\demo\protected\models\Page.php (27)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (186)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (109)
+2010/11/29 10:58:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_page`
+in F:\tools\xampp\htdocs\demo\protected\models\Page.php (27)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (186)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (109)
+2010/11/29 10:58:49 [trace] [system.db.ar.CActiveRecord] Page.findByAttributes()
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (186)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (109)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_page` `t` WHERE `t`.`path`=:yp0 LIMIT 1
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (186)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (109)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:49 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\tools\xampp\htdocs\demo\protected\views\page\update.php (14)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (123)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_sitemap`
+in F:\tools\xampp\htdocs\demo\protected\models\Sitemap.php (23)
+in F:\tools\xampp\htdocs\demo\protected\models\Sitemap.php (102)
+in F:\tools\xampp\htdocs\demo\protected\helpers\Utils.php (74)
+2010/11/29 10:58:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_sitemap`
+in F:\tools\xampp\htdocs\demo\protected\models\Sitemap.php (23)
+in F:\tools\xampp\htdocs\demo\protected\models\Sitemap.php (102)
+in F:\tools\xampp\htdocs\demo\protected\helpers\Utils.php (74)
+2010/11/29 10:58:50 [trace] [system.db.ar.CActiveRecord] Sitemap.findAll()
+in F:\tools\xampp\htdocs\demo\protected\models\Sitemap.php (102)
+in F:\tools\xampp\htdocs\demo\protected\helpers\Utils.php (74)
+in F:\tools\xampp\htdocs\demo\protected\views\page\update.php (16)
+2010/11/29 10:58:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_sitemap` `t` ORDER BY parent asc, id asc
+in F:\tools\xampp\htdocs\demo\protected\models\Sitemap.php (102)
+in F:\tools\xampp\htdocs\demo\protected\helpers\Utils.php (74)
+in F:\tools\xampp\htdocs\demo\protected\views\page\update.php (16)
+2010/11/29 10:58:50 [trace] [system.db.ar.CActiveRecord] Sitemap.findByAttributes()
+in F:\tools\xampp\htdocs\demo\protected\helpers\Utils.php (77)
+in F:\tools\xampp\htdocs\demo\protected\views\page\update.php (16)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (123)
+2010/11/29 10:58:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_sitemap` `t` WHERE `t`.`path`=:yp0 LIMIT 1
+in F:\tools\xampp\htdocs\demo\protected\helpers\Utils.php (77)
+in F:\tools\xampp\htdocs\demo\protected\views\page\update.php (16)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (123)
+2010/11/29 10:58:50 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\views\page\update.php (17)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (123)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:50 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\views\page\update.php (17)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (123)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:52 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\CBreadcrumbs.php (103)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (44)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (123)
+2010/11/29 10:58:56 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:56 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:56 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:56 [trace] [system.web.filters.CFilterChain] Running filter PageController.filteraccessControl()
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:56 [trace] [system.CModule] Loading "user" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:56 [trace] [system.CModule] Loading "session" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:56 [trace] [system.CModule] Loading "db" application component
+in F:\tools\xampp\htdocs\demo\protected\models\Page.php (27)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (186)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (109)
+2010/11/29 10:58:56 [trace] [system.db.CDbConnection] Opening DB connection
+in F:\tools\xampp\htdocs\demo\protected\models\Page.php (27)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (186)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (109)
+2010/11/29 10:58:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_page`
+in F:\tools\xampp\htdocs\demo\protected\models\Page.php (27)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (186)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (109)
+2010/11/29 10:58:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_page`
+in F:\tools\xampp\htdocs\demo\protected\models\Page.php (27)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (186)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (109)
+2010/11/29 10:58:56 [trace] [system.db.ar.CActiveRecord] Page.findByAttributes()
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (186)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (109)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_page` `t` WHERE `t`.`path`=:yp0 LIMIT 1
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (186)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (109)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:56 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\tools\xampp\htdocs\demo\protected\views\page\update.php (14)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (123)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_sitemap`
+in F:\tools\xampp\htdocs\demo\protected\models\Sitemap.php (23)
+in F:\tools\xampp\htdocs\demo\protected\models\Sitemap.php (102)
+in F:\tools\xampp\htdocs\demo\protected\helpers\Utils.php (74)
+2010/11/29 10:58:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_sitemap`
+in F:\tools\xampp\htdocs\demo\protected\models\Sitemap.php (23)
+in F:\tools\xampp\htdocs\demo\protected\models\Sitemap.php (102)
+in F:\tools\xampp\htdocs\demo\protected\helpers\Utils.php (74)
+2010/11/29 10:58:56 [trace] [system.db.ar.CActiveRecord] Sitemap.findAll()
+in F:\tools\xampp\htdocs\demo\protected\models\Sitemap.php (102)
+in F:\tools\xampp\htdocs\demo\protected\helpers\Utils.php (74)
+in F:\tools\xampp\htdocs\demo\protected\views\page\update.php (16)
+2010/11/29 10:58:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_sitemap` `t` ORDER BY parent asc, id asc
+in F:\tools\xampp\htdocs\demo\protected\models\Sitemap.php (102)
+in F:\tools\xampp\htdocs\demo\protected\helpers\Utils.php (74)
+in F:\tools\xampp\htdocs\demo\protected\views\page\update.php (16)
+2010/11/29 10:58:56 [trace] [system.db.ar.CActiveRecord] Sitemap.findByAttributes()
+in F:\tools\xampp\htdocs\demo\protected\helpers\Utils.php (77)
+in F:\tools\xampp\htdocs\demo\protected\views\page\update.php (16)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (123)
+2010/11/29 10:58:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_sitemap` `t` WHERE `t`.`path`=:yp0 LIMIT 1
+in F:\tools\xampp\htdocs\demo\protected\helpers\Utils.php (77)
+in F:\tools\xampp\htdocs\demo\protected\views\page\update.php (16)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (123)
+2010/11/29 10:58:56 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\views\page\update.php (17)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (123)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:56 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\views\page\update.php (17)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (123)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 10:58:56 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\CBreadcrumbs.php (103)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (44)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (123)
+2010/11/29 12:34:16 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:16 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:16 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:16 [trace] [system.base.CModule] Loading "gii" module
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:16 [trace] [system.CModule] Loading "user" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (169)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:16 [trace] [system.CModule] Loading "session" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (169)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:16 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\views\layouts\column1.php (1)
+in F:\tools\xampp\htdocs\yii\framework\gii\controllers\DefaultController.php (17)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:16 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\views\layouts\main.php (2)
+in F:\tools\xampp\htdocs\yii\framework\gii\views\layouts\column1.php (7)
+in F:\tools\xampp\htdocs\yii\framework\gii\controllers\DefaultController.php (17)
+2010/11/29 12:34:16 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (137)
+in F:\tools\xampp\htdocs\yii\framework\gii\views\layouts\main.php (4)
+in F:\tools\xampp\htdocs\yii\framework\gii\views\layouts\column1.php (7)
+2010/11/29 12:34:23 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:23 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:23 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:23 [trace] [system.base.CModule] Loading "gii" module
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:23 [trace] [system.CModule] Loading "user" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (169)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:23 [trace] [system.CModule] Loading "session" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (169)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:23 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\generators\controller\views\index.php (6)
+in F:\tools\xampp\htdocs\yii\framework\gii\CCodeGenerator.php (70)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:23 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\CCodeForm.php (56)
+in F:\tools\xampp\htdocs\yii\framework\gii\generators\controller\views\index.php (44)
+in F:\tools\xampp\htdocs\yii\framework\gii\CCodeGenerator.php (70)
+2010/11/29 12:34:23 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (137)
+in F:\tools\xampp\htdocs\yii\framework\gii\views\layouts\main.php (4)
+in F:\tools\xampp\htdocs\yii\framework\gii\views\layouts\generator.php (25)
+2010/11/29 12:34:52 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:52 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:52 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:52 [trace] [system.base.CModule] Loading "gii" module
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:52 [trace] [system.CModule] Loading "user" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (169)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:52 [trace] [system.CModule] Loading "session" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (169)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:52 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\generators\controller\views\index.php (6)
+in F:\tools\xampp\htdocs\yii\framework\gii\CCodeGenerator.php (70)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:34:52 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\CCodeForm.php (56)
+in F:\tools\xampp\htdocs\yii\framework\gii\generators\controller\views\index.php (44)
+in F:\tools\xampp\htdocs\yii\framework\gii\CCodeGenerator.php (70)
+2010/11/29 12:34:52 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (137)
+in F:\tools\xampp\htdocs\yii\framework\gii\views\layouts\main.php (4)
+in F:\tools\xampp\htdocs\yii\framework\gii\views\layouts\generator.php (25)
+2010/11/29 12:35:06 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:35:06 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:35:06 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:35:06 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:35:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imageupload".' in F:\tools\xampp\htdocs\yii\framework\web\CWebApplication.php:328
+Stack trace:
+#0 F:\tools\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('imageupload')
+#1 F:\tools\xampp\htdocs\yii\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 F:\tools\xampp\htdocs\demo\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/demo/index.php?r=imageupload
+2010/11/29 12:35:06 [trace] [system.CModule] Loading "errorHandler" application component
+2010/11/29 12:35:06 [trace] [system.CModule] Loading "user" application component
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (36)
+in F:\tools\xampp\htdocs\demo\protected\controllers\SiteController.php (46)
+2010/11/29 12:35:06 [trace] [system.CModule] Loading "session" application component
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (36)
+in F:\tools\xampp\htdocs\demo\protected\controllers\SiteController.php (46)
+2010/11/29 12:35:06 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (39)
+in F:\tools\xampp\htdocs\demo\protected\controllers\SiteController.php (46)
+2010/11/29 12:35:06 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\SiteController.php (46)
+2010/11/29 12:35:22 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:35:22 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:35:22 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:35:22 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:35:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imageupload/index".' in F:\tools\xampp\htdocs\yii\framework\web\CWebApplication.php:328
+Stack trace:
+#0 F:\tools\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('imageupload/ind...')
+#1 F:\tools\xampp\htdocs\yii\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 F:\tools\xampp\htdocs\demo\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/demo/index.php?r=imageupload/index
+2010/11/29 12:35:22 [trace] [system.CModule] Loading "errorHandler" application component
+2010/11/29 12:35:22 [trace] [system.CModule] Loading "user" application component
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (36)
+in F:\tools\xampp\htdocs\demo\protected\controllers\SiteController.php (46)
+2010/11/29 12:35:22 [trace] [system.CModule] Loading "session" application component
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (36)
+in F:\tools\xampp\htdocs\demo\protected\controllers\SiteController.php (46)
+2010/11/29 12:35:22 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (39)
+in F:\tools\xampp\htdocs\demo\protected\controllers\SiteController.php (46)
+2010/11/29 12:35:22 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\SiteController.php (46)
+2010/11/29 12:35:27 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:35:28 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:35:28 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:35:28 [trace] [system.base.CModule] Loading "gii" module
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:35:28 [trace] [system.CModule] Loading "user" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (169)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:35:28 [trace] [system.CModule] Loading "session" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (169)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:35:28 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\generators\controller\views\index.php (6)
+in F:\tools\xampp\htdocs\yii\framework\gii\CCodeGenerator.php (70)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:35:28 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\CCodeForm.php (56)
+in F:\tools\xampp\htdocs\yii\framework\gii\generators\controller\views\index.php (44)
+in F:\tools\xampp\htdocs\yii\framework\gii\CCodeGenerator.php (70)
+2010/11/29 12:35:28 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (137)
+in F:\tools\xampp\htdocs\yii\framework\gii\views\layouts\main.php (4)
+in F:\tools\xampp\htdocs\yii\framework\gii\views\layouts\generator.php (25)
+2010/11/29 12:35:32 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:35:32 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:35:32 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:35:32 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\column1.php (1)
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (7)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:35:32 [trace] [system.CModule] Loading "user" application component
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (36)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\column1.php (7)
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (7)
+2010/11/29 12:35:32 [trace] [system.CModule] Loading "session" application component
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (36)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\column1.php (7)
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (7)
+2010/11/29 12:35:32 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\CBreadcrumbs.php (103)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (44)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\column1.php (7)
+2010/11/29 12:35:32 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (7)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:42:26 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:42:26 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:42:26 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:42:26 [trace] [system.web.filters.CFilterChain] Running filter PageController.filteraccessControl()
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:42:26 [trace] [system.CModule] Loading "user" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:42:26 [trace] [system.CModule] Loading "session" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:42:26 [trace] [system.CModule] Loading "db" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (151)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:42:26 [trace] [system.db.CDbConnection] Opening DB connection
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (151)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:42:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_page`
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (151)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:42:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_page`
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (151)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:42:26 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\views\page\admin.php (6)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (158)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:42:26 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\tools\xampp\htdocs\demo\protected\views\page\admin.php (26)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (158)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:42:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_sitemap`
+in F:\tools\xampp\htdocs\demo\protected\models\Sitemap.php (23)
+in F:\tools\xampp\htdocs\demo\protected\models\Sitemap.php (102)
+in F:\tools\xampp\htdocs\demo\protected\helpers\Utils.php (74)
+2010/11/29 12:42:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_sitemap`
+in F:\tools\xampp\htdocs\demo\protected\models\Sitemap.php (23)
+in F:\tools\xampp\htdocs\demo\protected\models\Sitemap.php (102)
+in F:\tools\xampp\htdocs\demo\protected\helpers\Utils.php (74)
+2010/11/29 12:42:26 [trace] [system.db.ar.CActiveRecord] Sitemap.findAll()
+in F:\tools\xampp\htdocs\demo\protected\models\Sitemap.php (102)
+in F:\tools\xampp\htdocs\demo\protected\helpers\Utils.php (74)
+in F:\tools\xampp\htdocs\demo\protected\views\page\admin.php (28)
+2010/11/29 12:42:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_sitemap` `t` ORDER BY parent asc, id asc
+in F:\tools\xampp\htdocs\demo\protected\models\Sitemap.php (102)
+in F:\tools\xampp\htdocs\demo\protected\helpers\Utils.php (74)
+in F:\tools\xampp\htdocs\demo\protected\views\page\admin.php (28)
+2010/11/29 12:42:26 [trace] [system.db.ar.CActiveRecord] Sitemap.findByAttributes()
+in F:\tools\xampp\htdocs\demo\protected\helpers\Utils.php (77)
+in F:\tools\xampp\htdocs\demo\protected\views\page\admin.php (28)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (158)
+2010/11/29 12:42:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_sitemap` `t` WHERE `t`.`path` IS NULL LIMIT 1
+in F:\tools\xampp\htdocs\demo\protected\helpers\Utils.php (77)
+in F:\tools\xampp\htdocs\demo\protected\views\page\admin.php (28)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (158)
+2010/11/29 12:42:26 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\views\page\admin.php (29)
+in F:\tools\xampp\htdocs\demo\protected\controllers\PageController.php (158)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:42:26 [trace] [system.db.ar.CActiveRecord] Page.count()
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php (105)
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php (220)
+in F:\tools\xampp\htdocs\demo\protected\views\page\admin.php (49)
+2010/11/29 12:42:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_page` `t`
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php (105)
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php (220)
+in F:\tools\xampp\htdocs\demo\protected\views\page\admin.php (49)
+2010/11/29 12:42:26 [trace] [system.db.ar.CActiveRecord] Page.findAll()
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php (105)
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php (220)
+in F:\tools\xampp\htdocs\demo\protected\views\page\admin.php (49)
+2010/11/29 12:42:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_page` `t` LIMIT 10
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php (105)
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php (220)
+in F:\tools\xampp\htdocs\demo\protected\views\page\admin.php (49)
+2010/11/29 12:42:27 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\grid\CButtonColumn.php (170)
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\grid\CButtonColumn.php (146)
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php (277)
+2010/11/29 12:42:27 [trace] [system.CModule] Loading "format" application component
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php (479)
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\grid\CDataColumn.php (135)
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\grid\CGridColumn.php (135)
+2010/11/29 12:46:39 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:46:39 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:46:39 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:46:39 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (7)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:46:39 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\column1.php (1)
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (8)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:46:39 [trace] [system.CModule] Loading "user" application component
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (36)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\column1.php (7)
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (8)
+2010/11/29 12:46:39 [trace] [system.CModule] Loading "session" application component
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (36)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\column1.php (7)
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (8)
+2010/11/29 12:46:39 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\CBreadcrumbs.php (103)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (44)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\column1.php (7)
+2010/11/29 12:46:39 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (8)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:46:40 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:46:40 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:46:40 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:46:40 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (7)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:46:40 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\column1.php (1)
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (8)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 12:46:40 [trace] [system.CModule] Loading "user" application component
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (36)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\column1.php (7)
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (8)
+2010/11/29 12:46:40 [trace] [system.CModule] Loading "session" application component
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (36)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\column1.php (7)
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (8)
+2010/11/29 12:46:40 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\CBreadcrumbs.php (103)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (44)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\column1.php (7)
+2010/11/29 12:46:40 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (8)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 23:48:32 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 23:48:32 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 23:48:32 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 23:48:32 [trace] [system.base.CModule] Loading "gii" module
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 23:48:33 [trace] [system.CModule] Loading "user" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (169)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 23:48:33 [trace] [system.CModule] Loading "session" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (169)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 23:48:33 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\generators\controller\views\index.php (6)
+in F:\tools\xampp\htdocs\yii\framework\gii\CCodeGenerator.php (70)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/29 23:48:33 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\CCodeForm.php (56)
+in F:\tools\xampp\htdocs\yii\framework\gii\generators\controller\views\index.php (44)
+in F:\tools\xampp\htdocs\yii\framework\gii\CCodeGenerator.php (70)
+2010/11/29 23:48:34 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (137)
+in F:\tools\xampp\htdocs\yii\framework\gii\views\layouts\main.php (4)
+in F:\tools\xampp\htdocs\yii\framework\gii\views\layouts\generator.php (25)
+2010/11/30 00:28:48 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:28:48 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:28:48 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:28:48 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:28:48 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (15)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:29:28 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:29:28 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:29:28 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:29:28 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:29:28 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (14)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:32:23 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:32:23 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:32:23 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:32:23 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:32:23 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (14)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:34:25 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:34:25 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:34:25 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:34:25 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:34:25 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (14)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:38:28 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:38:28 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:38:28 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:38:28 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:38:28 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (14)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:38:43 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:38:43 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:38:43 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:38:43 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:38:43 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (14)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:38:55 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:38:55 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:38:55 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:38:55 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:38:55 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (14)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:44:50 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:44:50 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:44:50 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:44:50 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:44:50 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (14)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:45:29 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:45:29 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:45:29 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:45:29 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:45:29 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (14)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:45:48 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:45:48 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:45:48 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:45:48 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:45:48 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (14)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:48:34 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:48:34 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:48:34 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:48:34 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:48:34 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (14)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:59:23 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:59:23 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:59:23 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:59:23 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 00:59:23 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (14)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:00:16 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:00:16 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:00:16 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:00:17 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:00:17 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (14)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:03:37 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:03:37 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:03:37 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:03:37 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:03:37 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (14)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:04:33 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:04:33 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:04:33 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:04:33 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:04:33 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (14)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:06:05 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:06:05 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:06:05 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:06:05 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:06:05 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (14)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:06:16 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:06:16 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:06:16 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:06:16 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 01:06:16 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (14)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 05:38:20 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 05:38:20 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 05:38:20 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 05:38:20 [trace] [system.base.CModule] Loading "gii" module
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 05:38:21 [trace] [system.CModule] Loading "user" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (169)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 05:38:21 [trace] [system.CModule] Loading "session" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (169)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 05:38:21 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\generators\controller\views\index.php (6)
+in F:\tools\xampp\htdocs\yii\framework\gii\CCodeGenerator.php (70)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 05:38:21 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\CCodeForm.php (56)
+in F:\tools\xampp\htdocs\yii\framework\gii\generators\controller\views\index.php (44)
+in F:\tools\xampp\htdocs\yii\framework\gii\CCodeGenerator.php (70)
+2010/11/30 05:38:21 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (137)
+in F:\tools\xampp\htdocs\yii\framework\gii\views\layouts\main.php (4)
+in F:\tools\xampp\htdocs\yii\framework\gii\views\layouts\generator.php (25)
+2010/11/30 05:41:39 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 05:41:39 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 05:41:39 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 05:41:39 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 05:41:39 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (14)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 05:54:01 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 05:54:01 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 05:54:01 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 05:54:01 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 05:54:01 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (15)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:29:17 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:29:17 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:29:17 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:29:17 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:29:17 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (15)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:30:08 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:30:08 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:30:08 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:30:08 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:30:08 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:30:34 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:30:34 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:30:34 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:30:34 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:30:34 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:31:14 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:31:14 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:31:14 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:31:14 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:31:14 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:31:54 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:31:54 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:31:54 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:31:54 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:31:54 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:32:32 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:32:32 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:32:32 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:32:32 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:32:32 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:33:00 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:33:00 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:33:00 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:33:00 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:33:00 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:34:09 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:34:09 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:34:09 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:34:09 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:34:09 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:34:41 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:34:41 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:34:41 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:34:41 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:34:41 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:35:01 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:35:01 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:35:01 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:35:01 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:35:01 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:37:32 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:37:32 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:37:32 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:37:32 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:37:32 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:38:45 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:38:45 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:38:45 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:38:45 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:38:45 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:39:05 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:39:05 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:39:05 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:39:05 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:39:05 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:40:14 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:40:14 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:40:14 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:40:14 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:40:14 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:40:55 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:40:55 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:40:55 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:40:55 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:40:55 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:42:01 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:42:01 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:42:01 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:42:01 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:42:01 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:42:46 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:42:46 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:42:46 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:42:46 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:42:46 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:44:46 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:44:46 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:44:46 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:44:46 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:44:46 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:52:17 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:52:17 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:52:17 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:52:17 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:52:17 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:52:47 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:52:47 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:52:47 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:52:47 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:52:47 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:53:11 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:53:11 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:53:11 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:53:11 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:53:11 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:53:33 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:53:33 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:53:33 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:53:33 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:53:33 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:54:22 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:54:22 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:54:22 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:54:22 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:54:22 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:59:26 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:59:26 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:59:26 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:59:26 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 06:59:26 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:07:26 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:07:26 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:07:26 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:07:26 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:07:26 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:10:17 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:10:17 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:10:17 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:10:17 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:10:17 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:32:32 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:32:32 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:32:32 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:32:32 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:32:32 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:33:40 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:33:40 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:33:40 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:33:40 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:33:40 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:33:40 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:33:40 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:33:40 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:33:40 [trace] [system.base.CModule] Loading "gii" module
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:33:40 [trace] [system.CModule] Loading "user" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (169)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:33:40 [trace] [system.CModule] Loading "session" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (169)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:33:40 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\generators\controller\views\index.php (6)
+in F:\tools\xampp\htdocs\yii\framework\gii\CCodeGenerator.php (70)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:33:40 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\CCodeForm.php (56)
+in F:\tools\xampp\htdocs\yii\framework\gii\generators\controller\views\index.php (44)
+in F:\tools\xampp\htdocs\yii\framework\gii\CCodeGenerator.php (70)
+2010/11/30 07:33:40 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\yii\framework\gii\GiiModule.php (137)
+in F:\tools\xampp\htdocs\yii\framework\gii\views\layouts\main.php (4)
+in F:\tools\xampp\htdocs\yii\framework\gii\views\layouts\generator.php (25)
+2010/11/30 07:34:40 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:34:40 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:34:40 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:34:40 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:34:40 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:37:58 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:37:58 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:37:58 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:37:58 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:37:58 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:40:24 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:40:24 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:40:24 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:40:24 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:40:24 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:41:51 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:41:51 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:41:51 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:41:51 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:41:51 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:47:22 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:47:22 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:47:22 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:47:22 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:47:22 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:48:01 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:48:01 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:48:01 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:48:01 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:48:01 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:58:59 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:58:59 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:58:59 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:58:59 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:58:59 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:59:17 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:59:17 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:59:17 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:59:17 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:59:17 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:59:30 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:59:30 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:59:30 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:59:30 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:59:30 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:59:42 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:59:42 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:59:42 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:59:42 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 07:59:42 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:00:19 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:00:19 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:00:19 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:00:19 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:00:19 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:00:52 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:00:52 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:00:52 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:00:52 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:00:52 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:16:11 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:16:11 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:16:11 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:16:11 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:16:11 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:17:16 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:17:16 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:17:16 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:17:16 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:17:16 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:18:24 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:18:24 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:18:24 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:18:24 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:18:24 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:19:12 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:19:12 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:19:12 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:19:12 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:19:12 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:19:22 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:19:22 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:19:22 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:19:22 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:19:22 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:20:04 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:20:04 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:20:04 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:20:04 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:20:04 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:21:05 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:21:05 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:21:05 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:21:05 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:21:05 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:21:29 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:21:29 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:21:29 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:21:29 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:21:29 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:21:51 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:21:51 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:21:51 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:21:51 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:21:51 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:22:14 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:22:14 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:22:14 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:22:14 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:22:14 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:50:18 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:50:18 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:50:18 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:50:18 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (10)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/11/30 08:50:18 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ImageUploadController.php (16)
+in F:\tools\xampp\htdocs\demo\index.php (13)
