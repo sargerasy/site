@@ -3,38 +3,40 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 <body>
-	<div id="uploader-wrapper">
-		<div id="uploaderOverlay" style="position:absolute; z-index:2"></div>
-		<div id="selectFilesLink" style="z-index:1"><a id="selectLink" href="#">Select File</a></div>
-	</div>
-	<input type="button" id="test" value="test"/>
+
+	<span id="uploader-wrapper">
+		<span id="uploaderOverlay" style="position:absolute; z-index:2"></span>
+		<span id="selectFilesLink" style="z-index:1"><a id="selectLink" href="#">Select File</a></span>
+	</span>
 	<input type="button" id="upload" value="upload"/>
-	<input type="file" id="file"/>
+	<input type="button" id="clear" value="clear"/>
+	<div id="file-progress" style="display:inline;">
+		<input type="text" id="filename" value="123.txt" style="background:transparent;"/>
+		<span id="progressBar"></span>
+	</div>
 	<?php echo $content; ?>
 </body>
 <script type="text/javascript">
 	$(document).ready(function() {
-		var uploader = null;
-		$("#test").click(function() {
-			var ui = $("#selectLink");
-			var im = $("#uploaderOverlay");
-			im.width(ui.width());
-			im.height(ui.height());
-			uploader = $("#uploaderOverlay").uploader()
-			uploader.bind('swfReady', function() {
-				uploader.setAllowMultipleFiles(true);
-				console.log("test:"+'swfReady');
-			});
-			uploader.bind('fileSelect', function(_e, event) {
-				console.log("event");
-				console.log(event.fileList);
-			});
-			var i;
-			//uploader = new FlashAdapter("/demo/swf/uploader.swf", "uploaderOverlay");
+		var ui = $("#selectLink");
+		var im = $("#uploaderOverlay");
+		im.width(ui.width());
+		im.height(ui.height());
+		var uploader = $("#uploaderOverlay").uploader();
+		var pb = null;
+		//$("#progressBar").progressBar();
+
+		uploader.bind('fileSelect', function(_e, event) {
+			var file = event.fileList['file0'];
+			console.log(file.size);
+			pb = $("#progressBar").progressBar({max: file.size, textFormat: 'fraction'});
 		});
+		uploader.bind('uploadProgress', function(_e, event) {
+			pb.setProgress(event['bytesLoaded']);
+		});
+
 		$("#upload").click(function() {
-			uploader.destroy();
-			//uploader._swf.upload("file0", "/demo/upload.php", "POST");
+			uploader.uploadAll("/demo/upload.php");
 		});
 
 	});

@@ -11,6 +11,7 @@ class ImageUploadController extends Controller
 		Yii::app()->getClientScript()->registerScriptFile($baseUrl.'/js/jquery.boxy.js');
 		Yii::app()->getClientScript()->registerScriptFile($baseUrl.'/js/swfobject.js');
 		Yii::app()->getClientScript()->registerScriptFile($baseUrl.'/js/jquery.uploader.js');
+		Yii::app()->getClientScript()->registerScriptFile($baseUrl.'/js/jquery.progressbar.min.js');
 		Yii::app()->getClientScript()->registerCssFile($baseUrl.'/css/boxy.css');
 
 		$this->render('index');
