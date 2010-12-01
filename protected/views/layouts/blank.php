@@ -16,15 +16,25 @@
 	$(document).ready(function() {
 		var uploader = null;
 		$("#test").click(function() {
-			$("#file").uploader();
 			var ui = $("#selectLink");
 			var im = $("#uploaderOverlay");
 			im.width(ui.width());
 			im.height(ui.height());
-			uploader = new FlashAdapter("/demo/swf/uploader.swf", "uploaderOverlay");
+			uploader = $("#uploaderOverlay").uploader()
+			uploader.bind('swfReady', function() {
+				uploader.setAllowMultipleFiles(true);
+				console.log("test:"+'swfReady');
+			});
+			uploader.bind('fileSelect', function(_e, event) {
+				console.log("event");
+				console.log(event.fileList);
+			});
+			var i;
+			//uploader = new FlashAdapter("/demo/swf/uploader.swf", "uploaderOverlay");
 		});
 		$("#upload").click(function() {
-			uploader._swf.upload("file0", "/demo/upload.php", "POST");
+			uploader.destroy();
+			//uploader._swf.upload("file0", "/demo/upload.php", "POST");
 		});
 
 	});
