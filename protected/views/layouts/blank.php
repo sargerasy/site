@@ -3,16 +3,16 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 <body>
-
-	<span id="uploader-wrapper">
+	<div id="uploader-wrapper">
 		<span id="uploaderOverlay" style="position:absolute; z-index:2"></span>
 		<span id="selectFilesLink" style="z-index:1"><a id="selectLink" href="#">Select File</a></span>
-	</span>
-	<input type="button" id="upload" value="upload"/>
-	<input type="button" id="clear" value="clear"/>
-	<div id="file-progress" style="display:inline;">
-		<input type="text" id="filename" value="123.txt" style="background:transparent;"/>
-		<span id="progressBar"></span>
+		<input type="button" id="upload" value="upload"/>
+		<input type="button" id="clear" value="clear"/>
+		<input type="hidden" id="path" value=""/>
+		<div id="file-progress" style="display:inline;">
+			<input type="text" id="filename" value="" disabled="disabled" style="background:transparent;"/>
+			<span id="progressBar"></span>
+		</div>
 	</div>
 	<?php echo $content; ?>
 </body>
@@ -28,11 +28,13 @@
 
 		uploader.bind('fileSelect', function(_e, event) {
 			var file = event.fileList['file0'];
-			console.log(file.size);
-			pb = $("#progressBar").progressBar({max: file.size, textFormat: 'fraction'});
+			$("#filename").val(file.name);
+			pb = $("#progressBar").progressBar({prefix: "K", max: Math.round(file.size/1024), textFormat: 'fraction'});
 		});
 		uploader.bind('uploadProgress', function(_e, event) {
-			pb.setProgress(event['bytesLoaded']);
+			pb.setProgress(Math.round(event['bytesLoaded']/1024));
+		});
+		uploader.bind('uploadComplete', function(_e, event) {
 		});
 
 		$("#upload").click(function() {

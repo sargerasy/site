@@ -17,6 +17,25 @@ class ImageUploadController extends Controller
 		$this->render('index');
 	}
 
+	public function actionUpload()
+	{
+		echo "uploading!";
+		if (isset($_POST['path']))
+			$path = getcwd().$_POST['path'];
+		if (!is_dir($path))
+			mkdir($path, 0777, true);
+		echo str_replace("\\", "/", $_POST['path']);
+
+		if (isset($_POST['filename']))
+			$filename = $_POST['filename'];
+
+		foreach ($_FILES as $fieldName => $file) {
+			$name = iconv('utf-8', 'gbk', $file["name"]); ;//md5(microtime());
+			move_uploaded_file($file['tmp_name'], $path . $name);
+			echo $file['name'] . ' uploaded!';
+		}
+	}
+
 	// Uncomment the following methods and override them if needed
 	/*
 	public function filters()

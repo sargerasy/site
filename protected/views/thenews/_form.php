@@ -10,6 +10,13 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
+		<?php $this->widget('application.extensions.uploader.Uploader', array(
+			'path' => "/upload/news/",
+			'url' => $this->createUrl("imageUpload/upload"),
+		));?>
+	</div>
+
+	<div class="row">
 		<?php echo $form->labelEx($model,'title'); ?>
 		<?php echo $form->textField($model,'title',array('size'=>60,'maxlength'=>128)); ?>
 		<?php echo $form->error($model,'title'); ?>
