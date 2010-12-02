@@ -14,6 +14,13 @@
 			'path' => "/upload/news/",
 			'url' => $this->createUrl("imageUpload/upload"),
 		));?>
+		<?php $this->widget('application.extensions.tinymce.ETinyMce', array(
+			'options'=>array(
+				'mode'=>'textareas',
+				'theme'=>'advanced',
+			),
+			'name'=>'html',
+		));?>
 	</div>
 
 	<div class="row">
