@@ -12471,3 +12471,163 @@ in F:\tools\xampp\htdocs\demo\protected\views\thenews\create.php (15)
 in F:\tools\xampp\htdocs\yii\framework\zii\widgets\CBreadcrumbs.php (103)
 in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (44)
 in F:\tools\xampp\htdocs\demo\protected\views\layouts\column2.php (23)
+2010/12/02 09:29:21 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/02 09:29:21 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/02 09:29:21 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/02 09:29:21 [trace] [system.web.filters.CFilterChain] Running filter ThenewsController.filteraccessControl()
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/02 09:29:21 [trace] [system.CModule] Loading "user" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/02 09:29:21 [trace] [system.CModule] Loading "session" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/02 09:29:21 [trace] [system.CModule] Loading "db" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ThenewsController.php (64)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/02 09:29:21 [trace] [system.db.CDbConnection] Opening DB connection
+in F:\tools\xampp\htdocs\demo\protected\controllers\ThenewsController.php (64)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/02 09:29:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_news`
+in F:\tools\xampp\htdocs\demo\protected\controllers\ThenewsController.php (64)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/02 09:29:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_news`
+in F:\tools\xampp\htdocs\demo\protected\controllers\ThenewsController.php (64)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/02 09:29:21 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\_form.php (6)
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\create.php (15)
+in F:\tools\xampp\htdocs\demo\protected\controllers\ThenewsController.php (78)
+2010/12/02 09:29:21 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\extensions\uploader\Uploader.php (11)
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\_form.php (16)
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\create.php (15)
+2010/12/02 09:29:21 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\extensions\tinymce\ETinyMce.php (810)
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\_form.php (24)
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\create.php (15)
+2010/12/02 09:29:21 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\CBreadcrumbs.php (103)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (44)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\column2.php (23)
+2010/12/02 23:50:17 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/02 23:50:17 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/02 23:50:17 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/02 23:50:17 [trace] [system.web.filters.CFilterChain] Running filter ThenewsController.filteraccessControl()
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/02 23:50:17 [trace] [system.CModule] Loading "user" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/02 23:50:17 [trace] [system.CModule] Loading "session" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/02 23:50:17 [trace] [system.CModule] Loading "db" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ThenewsController.php (64)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/02 23:50:17 [trace] [system.db.CDbConnection] Opening DB connection
+in F:\tools\xampp\htdocs\demo\protected\controllers\ThenewsController.php (64)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/02 23:50:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_news`
+in F:\tools\xampp\htdocs\demo\protected\controllers\ThenewsController.php (64)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/02 23:50:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_news`
+in F:\tools\xampp\htdocs\demo\protected\controllers\ThenewsController.php (64)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/02 23:50:17 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\_form.php (6)
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\create.php (15)
+in F:\tools\xampp\htdocs\demo\protected\controllers\ThenewsController.php (78)
+2010/12/02 23:50:18 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\extensions\uploader\Uploader.php (11)
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\_form.php (16)
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\create.php (15)
+2010/12/02 23:50:18 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\extensions\tinymce\ETinyMce.php (810)
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\_form.php (24)
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\create.php (15)
+2010/12/02 23:50:18 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\CBreadcrumbs.php (103)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (44)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\column2.php (23)
+2010/12/03 02:59:00 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/03 02:59:00 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/03 02:59:00 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/03 02:59:00 [trace] [system.web.filters.CFilterChain] Running filter ThenewsController.filteraccessControl()
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/03 02:59:00 [trace] [system.CModule] Loading "user" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/03 02:59:00 [trace] [system.CModule] Loading "session" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/03 02:59:00 [trace] [system.CModule] Loading "db" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ThenewsController.php (64)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/03 02:59:00 [trace] [system.db.CDbConnection] Opening DB connection
+in F:\tools\xampp\htdocs\demo\protected\controllers\ThenewsController.php (64)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/03 02:59:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_news`
+in F:\tools\xampp\htdocs\demo\protected\controllers\ThenewsController.php (64)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/03 02:59:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_news`
+in F:\tools\xampp\htdocs\demo\protected\controllers\ThenewsController.php (64)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/03 02:59:00 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\_form.php (6)
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\create.php (15)
+in F:\tools\xampp\htdocs\demo\protected\controllers\ThenewsController.php (78)
+2010/12/03 02:59:00 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\extensions\uploader\Uploader.php (11)
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\_form.php (16)
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\create.php (15)
+2010/12/03 02:59:00 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\extensions\tinymce\ETinyMce.php (810)
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\_form.php (24)
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\create.php (15)
+2010/12/03 02:59:00 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\CBreadcrumbs.php (103)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (44)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\column2.php (23)
+2010/12/03 05:37:40 [trace] [system.CModule] Loading "log" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/03 05:37:40 [trace] [system.CModule] Loading "request" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/03 05:37:40 [trace] [system.CModule] Loading "urlManager" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/03 05:37:40 [trace] [system.web.filters.CFilterChain] Running filter ThenewsController.filteraccessControl()
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/03 05:37:40 [trace] [system.CModule] Loading "user" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/03 05:37:40 [trace] [system.CModule] Loading "session" application component
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/03 05:37:40 [trace] [system.CModule] Loading "db" application component
+in F:\tools\xampp\htdocs\demo\protected\controllers\ThenewsController.php (64)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/03 05:37:40 [trace] [system.db.CDbConnection] Opening DB connection
+in F:\tools\xampp\htdocs\demo\protected\controllers\ThenewsController.php (64)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/03 05:37:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `tbl_news`
+in F:\tools\xampp\htdocs\demo\protected\controllers\ThenewsController.php (64)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/03 05:37:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_news`
+in F:\tools\xampp\htdocs\demo\protected\controllers\ThenewsController.php (64)
+in F:\tools\xampp\htdocs\demo\index.php (13)
+2010/12/03 05:37:40 [trace] [system.CModule] Loading "widgetFactory" application component
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\_form.php (6)
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\create.php (15)
+in F:\tools\xampp\htdocs\demo\protected\controllers\ThenewsController.php (78)
+2010/12/03 05:37:40 [trace] [system.CModule] Loading "clientScript" application component
+in F:\tools\xampp\htdocs\demo\protected\extensions\uploader\Uploader.php (11)
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\_form.php (16)
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\create.php (15)
+2010/12/03 05:37:40 [trace] [system.CModule] Loading "assetManager" application component
+in F:\tools\xampp\htdocs\demo\protected\extensions\tinymce\ETinyMce.php (810)
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\_form.php (24)
+in F:\tools\xampp\htdocs\demo\protected\views\thenews\create.php (15)
+2010/12/03 05:37:40 [trace] [system.CModule] Loading "coreMessages" application component
+in F:\tools\xampp\htdocs\yii\framework\zii\widgets\CBreadcrumbs.php (103)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\main.bak.php (44)
+in F:\tools\xampp\htdocs\demo\protected\views\layouts\column2.php (23)

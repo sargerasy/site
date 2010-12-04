@@ -14,12 +14,13 @@
 			'path' => "/upload/news/",
 			'url' => $this->createUrl("imageUpload/upload"),
 		));?>
+		<textarea id='editor'></div>
 		<?php $this->widget('application.extensions.tinymce.ETinyMce', array(
 			'options'=>array(
 				'mode'=>'textareas',
 				'theme'=>'advanced',
 			),
-			'name'=>'html',
+			'name'=>'editor',
 		));?>
 	</div>
 
